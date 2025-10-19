@@ -69,8 +69,6 @@ button{
     align-items: center;
 }
 .header-row:first-of-type{
-    position: absolute;
-    top: 0;
     background: #000;
     padding: 0.5em 1em;
     border-bottom-color: #fff;
