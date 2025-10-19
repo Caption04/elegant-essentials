@@ -61,6 +61,9 @@ button{
     position: relative;
 
 }
+.header svg{
+    stroke-width: 2;
+}
 
 .header-row{
     width: 100%;
