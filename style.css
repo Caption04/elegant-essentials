@@ -64,6 +64,12 @@ button svg{
     position: relative;
 
 }
+.header-large{
+    width: 100%;
+    background: var(--tertiary-clr);
+    display: flex;
+    padding: 1em 1em;
+}
 .large-screen-nav{
     width: 100%;
     padding: 1em 1em;
