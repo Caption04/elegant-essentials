@@ -58,7 +58,7 @@ button{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1em 0.5em;
+    position: relative;
 
 }
 
@@ -69,7 +69,8 @@ button{
     align-items: center;
 }
 .header-row:first-of-type{
-    /* background: #1390e2; */
+    position: absolute;
+    top: 0;
     background: #000;
     padding: 0.5em 1em;
     border-bottom-color: #fff;
@@ -77,7 +78,7 @@ button{
 
 .header-row:last-of-type{
     position: relative;
-    padding: 1.3em 1em;
+    padding: 2em 1em;
 }
 .header-row .header-text{
     margin: auto;
