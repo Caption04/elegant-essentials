@@ -48,6 +48,9 @@ button{
     padding: 0.2em 1em;
     cursor: pointer;
 }
+button svg{
+    stroke-width: 2;
+}
 .document{
     width: 100%;
     display: grid;
@@ -61,8 +64,20 @@ button{
     position: relative;
 
 }
-button svg{
-    stroke-width: 2;
+.large-screen-nav{
+    width: 100%;
+    padding: 1em 1em;
+    background: var(--tertiary-clr);
+}
+.large-nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.large-nav li a{
+    text-decoration: none;
+    color: var(--secondary-clr);
+    font-family: var(--ff-primary-);
 }
 
 .header-row{
