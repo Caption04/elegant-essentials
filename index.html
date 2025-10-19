@@ -6,174 +6,33 @@
     <script src="index.js" defer></script>
 </head>
 <body>
-    <div class="overlay"></div>
-    <section class="document">
-        <header class="header">
-            <div class="header-row">
-                <p class="header-text">Free shipping on Harare. orders over $200</p>
+    <section class="hero-section">
+        <header class="header-container">
+            <div class="utility-strip">
+                <p class="utility-strip-promotion">Free Shipping On Harare. Orders Over $200</p>
             </div>
-            <div class="header-row">
-                <button class="menu-open-btn">
-                    <svg class="open-icon header-icon"viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 8H20M4 16H12" stroke="#000000" stroke-width="0.576" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                </button>
-                <a href="index.html" class="logo-link">
-                    <img src="logo.png" alt="logo" class="logo-header"/>
-                </a>
-                <button class="search-btn">
-                    <svg class="search-icon header-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                </button>
-                <button class="cart-btn">
-                    <svg class="cart-icon header-icon" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <polygon fill="none" stroke-miterlimit="10" points="1,25 12,59 52,59 63,25 "></polygon> <line fill="none" stroke-miterlimit="10" x1="14" y1="25" x2="22" y2="5"></line> <line fill="none" stroke-miterlimit="10" x1="50" y1="25" x2="42" y2="5"></line> </g></svg>
-                </button>
-                <>
-            </div>
+            <header class="header-large">
+                <div class="header-row-large">
+                    <button class="large-search-button"></button>
+                    <div class="large-header-logo-container">
+                        <img src="logo.png" alt="logo" class="large-logo" />
+                    </div>
+                    <button class="large-cart-button"></button>
+                </div>
+            </header>
+            <header class="header-small">
+                <div class="header-row-small">
+                    <button class="menu-open"></button>
+                    <div class="small-header-logo-container">
+                        <img src="logo.png" alt="logo" class="logo" />
+                    </div>
+                    <button class="small-search-button"></button>
+                    <button class="small-cart-button"></button>
+                </div>
+            </header>
         </header>
-        <header class="large-screen-nav-bottom">
-            <ul class="large-nav">
-                <li><a href="#" class="large-screen-link">What's New</a></li>
-                <li><a href="#" class="large-screen-link">Clothing</a></li>
-                <li><a href="#" class="large-screen-link">Footwear</a></li>
-                <li><a href="#" class="large-screen-link">Accessories</a></li>
-                <li><a href="#" class="large-screen-link">Sale</a></li>
-            </ul>
-        </header>
-        <div class="side-menu">
-            <div class="side-menu-row-one animation">
-                <button class="close-menu-btn">
-                    <svg class="close-menu-btn-icon" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 21.32L21 3.32001" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M3 3.32001L21 21.32" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                </button>
-            </div>
-            <div class="side-menu-row-two animation">
-                <ul class="link-content">
-                    <li class="sidebar-link">
-                        <a href="#" class="link">What's New</a>
-                    </li>
-                    <li class="sidebar-link">
-                        <a href="#" class="link">Clothing</a>
-                    </li>
-                    <li class="sidebar-link">
-                        <a href="#" class="link">Footwear</a>
-                    </li>
-                    <li class="sidebar-link">
-                        <a href="#" class="link">Accessories</a>
-                    </li>
-                    <li class="sidebar-link">
-                        <a href="#" class="link">Sale</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="side-menu-row-three animation">
-                <div class="sidebar-social-links">
-                    <a href="#" class="sidebar-instagram">
-                        <svg class="sidebar-instagram-icon" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 5H9.5C7.29086 5 5.5 6.79086 5.5 9V15C5.5 17.2091 7.29086 19 9.5 19H15.5C17.7091 19 19.5 17.2091 19.5 15V9C19.5 6.79086 17.7091 5 15.5 5Z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 15C10.8431 15 9.5 13.6569 9.5 12C9.5 10.3431 10.8431 9 12.5 9C14.1569 9 15.5 10.3431 15.5 12C15.5 12.7956 15.1839 13.5587 14.6213 14.1213C14.0587 14.6839 13.2956 15 12.5 15Z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <rect x="15.5" y="9" width="2" height="2" rx="1" transform="rotate(-90 15.5 9)" fill="#fff"></rect> <rect x="16" y="8.5" width="1" height="1" rx="0.5" transform="rotate(-90 16 8.5)" stroke="#fff" stroke-linecap="round"></rect> </g></svg>
-                    </a>
-                    <a href="#" class="sidebar-facebook">
-                        <svg class="sidebar-facebook-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 12.05C19.9813 10.5255 19.5273 9.03809 18.6915 7.76295C17.8557 6.48781 16.673 5.47804 15.2826 4.85257C13.8921 4.2271 12.3519 4.01198 10.8433 4.23253C9.33473 4.45309 7.92057 5.10013 6.7674 6.09748C5.61422 7.09482 4.77005 8.40092 4.3343 9.86195C3.89856 11.323 3.88938 12.8781 4.30786 14.3442C4.72634 15.8103 5.55504 17.1262 6.69637 18.1371C7.83769 19.148 9.24412 19.8117 10.75 20.05V14.38H8.75001V12.05H10.75V10.28C10.7037 9.86846 10.7483 9.45175 10.8807 9.05931C11.0131 8.66687 11.23 8.30827 11.5161 8.00882C11.8022 7.70936 12.1505 7.47635 12.5365 7.32624C12.9225 7.17612 13.3368 7.11255 13.75 7.14003C14.3498 7.14824 14.9482 7.20173 15.54 7.30003V9.30003H14.54C14.3676 9.27828 14.1924 9.29556 14.0276 9.35059C13.8627 9.40562 13.7123 9.49699 13.5875 9.61795C13.4627 9.73891 13.3667 9.88637 13.3066 10.0494C13.2464 10.2125 13.2237 10.387 13.24 10.56V12.07H15.46L15.1 14.4H13.25V20C15.1399 19.7011 16.8601 18.7347 18.0985 17.2761C19.3369 15.8175 20.0115 13.9634 20 12.05Z" fill="#fff"></path> </g></svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <section class="content">
-            <section class="hero-section">
-                <h1 class="tagline">Shop Elegant Essentials</h1>
-                <p class="subtag">Elegance and Luxury</p>
-                <button class="hero-btn">Shop</button>
-            </section>
-            <h2 class="feature-header">Featured Collections</h2>
-            <section class="featured-section">
-                <div class="featured-items">
-                    <div class="featured-image-container">
-                        <img src="feature1.jpeg" alt="clothing" class="featured-image" />
-                    </div>
-                    <div class="featured-text">
-                        <h3 class="featured-text-heading">Blue Line</h3>
-                    </div>
-                </div>
-            </section>
-            <section class="featured-section">
-                <div class="featured-items">
-                    <div class="featured-image-container">
-                        <img src="feature2.jpeg" alt="clothing" class="featured-image" />
-                    </div>
-                    <div class="featured-text">
-                        <h3 class="featured-text-heading">Blue Line</h3>
-                    </div>
-                </div>
-            </section>
-            <section class="featured-section">
-                <div class="featured-items">
-                    <div class="featured-image-container">
-                        <img src="feature3.jpeg" alt="clothing" class="featured-image" />
-                    </div>
-                    <div class="featured-text">
-                        <h3 class="featured-text-heading">Blue Line</h3>
-                    </div>
-                </div>
-            </section>
-            <section class="featured-section">
-                <div class="featured-items">
-                    <div class="featured-image-container">
-                        <img src="feature4.jpeg" alt="clothing" class="featured-image" />
-                    </div>
-                    <div class="featured-text">
-                        <h3 class="featured-text-heading">Blue Line</h3>
-                    </div>
-                </div>
-            </section>
-        </section>
-        <footer class="footer">
-            <div class="footer-row">
-                <div class="data-container">
-                    <h3 class="data-header">FAQ</h3>
-                    <button class="arrow">
-                        <svg class="arrow-btn" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 15L12 9L18 15"  stroke-width="0.576" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                    </button>
-                </div>
-                <div class="input-box">
-                    <p class="question"><strong>This is the question to the answer?</strong></p>
-                    <p class="answer">This is the answer to the question</p>
-                </div>
-            </div>
-            <div class="footer-row">
-                <div class="data-container">
-                    <h3 class="data-header">CUSTOMER CARE</h3>
-                    <button class="arrow">
-                        <svg class="arrow-btn" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 15L12 9L18 15"  stroke-width="0.576" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                    </button>
-                </div>
-                <div class="input-box">
-                    <p class="question"><strong>Contact</strong></p>
-                    <p class="answer">Contact Details</p>
-                </div>
-            </div>
-            <div class="footer-row">
-                <div class="data-container">
-                    <h3 class="data-header">JOIN US</h3>
-                    <button class="arrow">
-                        <svg class="arrow-btn" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 15L12 9L18 15"  stroke-width="0.576" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                    </button>
-                </div>
-                <div class="input-box">
-                    <p class="question"><strong>Join Our Mailisting</strong></p>
-                    <p class="answer">Sign Up</p>
-                </div>
-            </div>
-            <div class="footer-row">
-                <div class="data-container">
-                    <h3 class="data-header">LOCATIONS</h3>
-                    <button class="arrow">
-                        <svg class="arrow-btn" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 15L12 9L18 15"  stroke-width="0.576" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                    </button>
-                </div>
-                <div class="input-box">
-                    <p class="question"><strong>Where we are</strong></p>
-                    <p class="answer">By This Street</p>
-                </div>
-            </div>
-            <div class="footer-row">
-                <p class="copyright">© 2025 Elegant Essentials. All Rights Reserved. <important>Privacy Notice</important> Terms of Use</p>
-            </div>
-        </footer>
     </section>
+    <section class="body-section"></section>
+    <footer class="section"></footer>
 </body>
 </html>
