@@ -61,7 +61,7 @@ button{
     position: relative;
 
 }
-.header svg{
+button svg{
     stroke-width: 2;
 }
 
