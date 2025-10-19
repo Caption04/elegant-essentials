@@ -116,7 +116,7 @@ button{
     transform: translateY(2px);
 }
 .cart-icon{
-    stroke-width: 2 !important;
+    stroke-width: 2;
 }
 .header button{
     background: none;
