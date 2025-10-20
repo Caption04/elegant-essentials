@@ -50,7 +50,18 @@ button{
     padding: 0.2em 1em;
     cursor: pointer;
 }
-button svg{
+a{
+    display: flex;
+    align-items: center;
+    background: var(--tertiary-clr);
+    border-style: none;
+    color: var(--secondary-clr);
+    font-family: var(--ff-secondary-);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.2em 1em;
+}
+a svg{
     width: 32px;
     height: 32px;
     stroke-width: 2;
