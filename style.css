@@ -134,6 +134,7 @@ a svg{
     width: 75%
 }
 .nav-menu ul li a{
+    font-size: clamp(14px, 0.1rem + 2vw, 16px);
     color: var(--secondary-clr);
     font-weight: 300;
 }
