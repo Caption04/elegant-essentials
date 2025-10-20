@@ -135,4 +135,5 @@ a svg{
 }
 .nav-menu ul li a{
     color: var(--secondary-clr);
+    font-weight: 300;
 }
