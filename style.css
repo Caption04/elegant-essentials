@@ -204,6 +204,7 @@ a svg{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: brightness(0.4);
 }
 @media screen and (max-width: 478px) {
     .hero-graphics::before{
