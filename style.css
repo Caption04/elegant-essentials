@@ -59,6 +59,7 @@ a{
     font-family: var(--ff-secondary-);
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
     /* padding: 0.2em 1em; */
 }
 a svg{
@@ -126,7 +127,8 @@ a svg{
 .nav-menu ul{
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 1em 0.5em;
 }
 .nav-menu ul li a{
     color: var(--secondary-clr);
