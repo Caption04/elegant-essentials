@@ -192,7 +192,6 @@ a svg{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,4 +201,7 @@ a svg{
     .hero-graphics{
         background-image: url('data.jpeg');
     }
+}
+.hero-btn{
+    padding-bottom: 3em;
 }
