@@ -186,6 +186,20 @@ a svg{
     margin-left: 10px;
 }
 .hero-graphics{
+    /* Background Image */
     width: 100%;
     background-image: url('hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+}
+@media screen and (max-width: 478px) {
+    .hero-graphics{
+        background-image: url('data.jpeg');
+    }
 }
