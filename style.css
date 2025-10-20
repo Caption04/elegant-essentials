@@ -227,6 +227,6 @@ a svg{
 .hero-btn{
     z-index: 2;
     position: relative;
-    margin-bottom: 3em;
+    margin-bottom: 12em;
     color: var(--secondary-clr);
 }
