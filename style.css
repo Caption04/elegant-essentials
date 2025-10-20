@@ -59,7 +59,7 @@ a{
     font-size: 18px;
     text-decoration: none;
 }
-a svg{
+a svg, a svg *{
     width: 32px;
     height: 32px;
     stroke-width: 2;
