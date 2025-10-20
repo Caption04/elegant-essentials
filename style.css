@@ -230,3 +230,9 @@ a svg{
     margin-bottom: 12em;
     color: var(--secondary-clr);
 }
+
+/* Body Section */
+.body-section{
+    width: 100%;
+}
+.product-listing-container{ }
