@@ -148,6 +148,8 @@ a svg{
     padding: 1em;
     position: relative;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 .small-header-logo-container{
     position: absolute;
