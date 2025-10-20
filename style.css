@@ -82,6 +82,9 @@ button svg{
     display: flex;
     padding: 2em 1em;
 }
+.large-search-button{
+    margin-right: auto;
+}
 .large-header-logo-container{
     position: absolute;
     left: 50%;
