@@ -123,12 +123,15 @@ a svg{
 }
 .nav-menu{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .nav-menu ul{
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 1em 0.5em;
+    width: 75%
 }
 .nav-menu ul li a{
     color: var(--secondary-clr);
