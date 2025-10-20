@@ -146,6 +146,23 @@ a svg{
 .header-row-small{
     display: flex;
     padding: 1em;
+    position: relative;
+    align-items: center;
+}
+.small-header-logo-container{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+}
+.small-header-logo-container a{
+    height: fit-content;
+    width: fit-content;
+    background: none;
+}
+.small-header-logo-container a img{
+    max-width: 100px;
+    width: 12vw;
+    min-width: 90px;
 }
 @media screen and (max-width: 600px){
     .header-large{
