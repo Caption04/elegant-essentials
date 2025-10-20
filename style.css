@@ -128,7 +128,7 @@ a svg{
 .nav-menu ul{
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1em 0.5em;
     width: 70%;
 }
