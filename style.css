@@ -137,7 +137,6 @@ a svg{
     color: var(--ff-primary-);
     font-weight: 400;
 }
-
 .header-small{
     display: none;
     width: 100%;
@@ -186,4 +185,7 @@ a svg{
 .small-cart-a{
     margin-left: 10px;
 }
-
+.hero-graphics{
+    width: 100%;
+    background-image: url('hero.jpg');
+}
