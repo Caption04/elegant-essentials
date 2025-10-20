@@ -211,6 +211,6 @@ a svg{
     font-size: clamp(18px, 0.1rem + 2vw, 30px);
 }
 .hero-btn{
-    padding-bottom: 3em;
+    margin-bottom: 3em;
     color: var(--secondary-clr);
 }
