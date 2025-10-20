@@ -53,13 +53,11 @@ button{
 a{
     display: flex;
     align-items: center;
-    /* background: var(--tertiary-clr); */
     border-style: none;
     color: var(--secondary-clr);
     font-family: var(--ff-secondary-);
     font-size: 18px;
     text-decoration: none;
-    /* padding: 0.2em 1em; */
 }
 a svg{
     width: 32px;
