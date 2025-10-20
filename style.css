@@ -151,6 +151,8 @@ a svg{
 }
 .small-header-logo-container{
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     width: fit-content;
     height: fit-content;
 }
@@ -163,6 +165,7 @@ a svg{
     max-width: 100px;
     width: 12vw;
     min-width: 90px;
+
 }
 @media screen and (max-width: 600px){
     .header-large{
