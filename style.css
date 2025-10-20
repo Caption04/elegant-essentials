@@ -217,6 +217,7 @@ a svg{
 .subtag{
     text-align: center;
     font-size: clamp(18px, 0.1rem + 2vw, 30px);
+    line-height: 1.5;
 }
 .hero-btn{
     margin-bottom: 3em;
