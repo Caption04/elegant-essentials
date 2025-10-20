@@ -206,7 +206,7 @@ a svg{
     background-size: cover;
 }
 @media screen and (max-width: 478px) {
-    .hero-graphics{
+    .hero-graphics::before{
         background-image: url('data.jpeg');
     }
 }
