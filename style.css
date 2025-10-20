@@ -204,6 +204,9 @@ a svg{
         background-image: url('data.jpeg');
     }
 }
+.tagline{
+    font-size: clamp(30px, 0.1rem + 2vw, 50px)
+}
 .hero-btn{
     padding-bottom: 3em;
     color: var(--secondary-clr);
