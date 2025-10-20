@@ -138,3 +138,20 @@ a svg{
     color: var(--ff-primary-);
     font-weight: 400;
 }
+
+.header-small{
+    display: none;
+    width: 100%;
+}
+.header-row-small{
+    display: flex;
+    padding: 1em;
+}
+@media screen and (max-width: 600px){
+    .header-large{
+        display: none;
+    }
+    .header-small{
+    display: none;
+    }
+}
