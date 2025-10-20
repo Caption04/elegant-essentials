@@ -159,6 +159,10 @@ a svg{
     display: flex;
     }
 }
+.header-row-small a svg{
+    width: 28px;
+    height: 28px;
+}
 .small-header-logo-container{
     position: absolute;
     left: 50%;
