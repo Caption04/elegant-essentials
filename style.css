@@ -81,6 +81,7 @@ button svg{
     width: 100%;
     display: flex;
     padding: 2em 1em;
+    background: green;
 }
 .large-search-button{
     margin-right: auto;
