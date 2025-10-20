@@ -120,3 +120,14 @@ a svg{
 .header-small{
     display: none;
 }
+.nav-menu{
+    width: 100%;
+}
+.nav-menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu ul li a{
+    color: var(--secondary-clr);
+}
