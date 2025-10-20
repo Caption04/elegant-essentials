@@ -98,6 +98,7 @@ a svg{
     margin-right: auto;
 }
 .large-header-logo-container{
+    top: 0;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);    
