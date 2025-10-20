@@ -94,7 +94,7 @@ a svg{
     display: flex;
     align-items: center;
     padding: 2em 1em;
-    background: green;
+    border-bottom: 1px solid var(--secondary-clr);
 }
 .large-search-a{
     margin-right: auto;
