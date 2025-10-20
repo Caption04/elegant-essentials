@@ -167,6 +167,9 @@ a svg{
     min-width: 90px;
 
 }
+.menu-open{
+    margin-right: auto;
+}
 @media screen and (max-width: 600px){
     .header-large{
         display: none;
