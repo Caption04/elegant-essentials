@@ -53,13 +53,13 @@ button{
 a{
     display: flex;
     align-items: center;
-    background: var(--tertiary-clr);
+    /* background: var(--tertiary-clr); */
     border-style: none;
     color: var(--secondary-clr);
     font-family: var(--ff-secondary-);
     font-size: 18px;
     font-weight: bold;
-    padding: 0.2em 1em;
+    /* padding: 0.2em 1em; */
 }
 a svg{
     width: 32px;
@@ -104,6 +104,11 @@ a svg{
     transform: translateX(-50%);    
     width: fit-content;
     height: fit-content;
+}
+.large-header-logo-container a{
+    height: fit-content;
+    width: fit-content;
+    background: none;
 }
 .large-header-logo-container img{
     max-width: 115px;
