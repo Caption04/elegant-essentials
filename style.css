@@ -88,6 +88,7 @@ a svg{
 }
 .header-large{
     width: 100%;
+    border-bottom: 1px solid var(--secondary-clr);
 }
 .header-row-large{
     position: relative;
@@ -95,7 +96,6 @@ a svg{
     display: flex;
     align-items: center;
     padding: 2em 1em;
-    border-bottom: 1px solid var(--secondary-clr);
 }
 .large-search-a{
     margin-right: auto;
