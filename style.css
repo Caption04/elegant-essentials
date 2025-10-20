@@ -101,9 +101,11 @@ a svg{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);    
-    min-width: 100px;
+    width: fit-content;
+    height: fit-content;
 }
 .large-header-logo-container img{
+    max-width: 115px;
     width: 12vw;
     min-width: 100px;
 }
