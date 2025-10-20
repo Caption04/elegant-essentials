@@ -39,6 +39,8 @@ body{
     color: var(--secondary-clr)
 }
 button{
+    display: flex;
+    align-items: center;
     background: var(--tertiary-clr);
     border-style: none;
     color: var(--secondary-clr);
@@ -64,4 +66,26 @@ button svg{
 .utility-strip{
     padding: 0.4em 1em;
     background: var(--secondary-clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-large{
+    width: 100%;
+}
+.header-row-large{
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 2em 1em;
+}
+.large-header-logo-container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12vw;
+    min-width: 100px;
+}
+.large-header-logo-container img{
+
 }
