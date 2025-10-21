@@ -235,4 +235,9 @@ a svg{
 .body-section{
     width: 100%;
 }
-.product-listing-container{ }
+.product-listing-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
