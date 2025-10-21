@@ -239,5 +239,13 @@ a svg{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+}
+.product-listing{
+    width: 100%;
+    aspect-ratio: 3/4;
+}
+.product-listing img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
