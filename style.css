@@ -234,6 +234,7 @@ a svg{
 /* Body Section */
 .body-section{
     width: 100%;
+    overflow-x: hidden;
 }
 .product-listing-container{
     width: 100%;
@@ -242,7 +243,7 @@ a svg{
 }
 .product-listing{
     width: 100%;
-    aspect-ratio: 3/4;
+    aspect-ratio: 1;
 }
 .product-listing img{
     width: 100%;
