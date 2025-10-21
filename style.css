@@ -234,7 +234,7 @@ a svg{
 /* Body Section */
 .body-section{
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .product-listing-container{
     width: 100%;
